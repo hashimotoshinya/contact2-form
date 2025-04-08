@@ -80,7 +80,7 @@ Controllers
   └── Controller.php
 ```
 - Fortifyのインストール
-- 
+ 
 ## 🧩 編集ファイル
 
 - コントローラー
@@ -89,8 +89,13 @@ Controllers
   - `AdminController`
 - ルーティング
   - `routes/web.php`
-- 認証：`Fortify` を使用
-- 必要に応じて `migrations` / `seeders` 実施
+- マイグレーション
+  - `contacts_table.php`
+- シーディング
+  - `Contactceeder.php`
+- モデル
+  - `Contact.php`
+
 
 ---
 ## 🧪 実装機能
